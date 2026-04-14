@@ -100,7 +100,7 @@ checkpoint-*
 scandeval_benchmark_results.jsonl
 euroeval_benchmark_results.jsonl
 
-# Experiments
+# Experiments
 gai-experiments.xlsx
 ~$gai-experiments.xlsx
 
@@ -110,7 +110,7 @@ src/upload/
 # Model outputs in debugging mode
 *.json
 
-# Mkdocs
+# Mkdocs
 site/
 
 # Helper files for docs
@@ -126,8 +126,11 @@ gfx/different-poses/*
 # Contracts
 generated_contracts/
 
-# Test config
+# Test config
 euroeval_config.py
 
 # Local debug scripts
 debug*.py
+
+# Ignore plan file
+PLAN.md
